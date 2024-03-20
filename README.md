@@ -1,128 +1,144 @@
-<!-- Banner Image -->
+<!-- Title -->
 
 <p align="center">
   <a href="https://expo.dev/">
-    <img alt="expo sdk" height="128" src="./.github/resources/banner.png">
-    <h1 align="center">Expo</h1>
+    <img alt="Expo CLI" src="../../../.github/resources/cli-banner.svg">
   </a>
+</p>
+
+<p align="center">The fastest way to build and run universal React Native apps for iOS, Android, and the web</p>
+
+<p align="center">
+
+  <a aria-label="Join the Expo Discord" href="https://discord.gg/4gtbPAdpaE" target="_blank">
+    <img alt="Discord" src="https://img.shields.io/discord/695411232856997968.svg?style=flat-square&labelColor=000000&color=000000&logo=discord&logoColor=FFFFFF&label=" />
+  </a>
+  <a aria-label="Browse the Expo forums" href="https://forums.expo.dev" target="_blank">
+    <img alt="" src="https://img.shields.io/badge/Ask%20Questions%20-000.svg?style=flat-square&logo=discourse&logoWidth=15&labelColor=000000&color=000000">
+  </a>
+
 </p>
 
 <p align="center">
-   <a aria-label="SDK version" href="https://www.npmjs.com/package/expo" target="_blank">
-    <img alt="Expo SDK version" src="https://img.shields.io/npm/v/expo.svg?style=flat-square&label=SDK&labelColor=000000&color=4630EB" />
+  <a aria-label="expo documentation" href="https://docs.expo.dev/more/expo-cli/">📚 Read the Documentation</a>
+  |
+  <a aria-label="Contribute to Expo CLI" href="#contributing"><b>Contribute to Expo CLI</b></a>
+</p>
+
+<p>
+  <a aria-label="Follow @expo on Twitter" href="https://twitter.com/intent/follow?screen_name=expo" target="_blank">
+    <img  alt="Twitter: expo" src="https://img.shields.io/twitter/follow/expo.svg?style=flat-square&label=Follow%20%40expo&logo=TWITTER&logoColor=FFFFFF&labelColor=00aced&logoWidth=15&color=lightgray" target="_blank" />
   </a>
-  <a aria-label="Chat or ask a question" href="https://chat.expo.dev" target="_blank">
-    <img alt="Chat or ask a question" src="https://img.shields.io/discord/695411232856997968.svg?style=flat-square&labelColor=000000&color=4630EB&logo=discord&logoColor=FFFFFF&label=Chat%20with%20us" />
-  </a>
-  <a aria-label="Expo is free to use" href="https://github.com/expo/expo/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />
-  </a>
-  <a aria-label="expo downloads" href="http://www.npmtrends.com/expo" target="_blank">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/expo.svg?style=flat-square&labelColor=gray&color=33CC12&label=Downloads" />
+  <a aria-label="Follow Expo on Medium" href="https://blog.expo.dev">
+    <img align="right" alt="Medium: exposition" src="https://img.shields.io/badge/Learn%20more%20on%20our%20blog-lightgray.svg?style=flat-square" target="_blank" />
   </a>
 </p>
 
-<p align="center">
-  <a aria-label="try expo with snack" href="https://snack.expo.dev"><b>Try Expo in the Browser</b></a>
-&ensp;•&ensp;
-  <a aria-label="expo documentation" href="https://docs.expo.dev">Read the Documentation</a>
-&ensp;•&ensp;
-  <a aria-label="expo documentation" href="https://blog.expo.dev">Learn more on our blog</a>
-&ensp;•&ensp;
-  <a aria-label="expo documentation" href="https://expo.canny.io/feature-requests">Request a feature</a>
-</p>
+---
 
-<h6 align="center">Follow us on</h6>
-<p align="center">
-  <a aria-label="Follow @expo on X" href="https://x.com/intent/follow?screen_name=expo" target="_blank">
-    <img alt="Expo on X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" target="_blank" />
-  </a>&nbsp;
-  <a aria-label="Follow @expo on GitHub" href="https://github.com/expo" target="_blank">
-    <img alt="Expo on GitHub" src="https://img.shields.io/badge/GitHub-222222?style=for-the-badge&logo=github&logoColor=white" target="_blank" />
-  </a>&nbsp;
-  <a aria-label="Follow @expo on Reddit" href="https://www.reddit.com/r/expo/" target="_blank">
-    <img alt="Expo on Reddit" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" target="_blank" />
-  </a>&nbsp;
-  <a aria-label="Follow @expo on Bluesky" href="https://bsky.app/profile/expo.dev" target="_blank">
-    <img alt="Expo on LinkedIn" src="https://img.shields.io/badge/Bluesky-1DA1F2?style=for-the-badge&logo=bluesky&logoColor=white" target="_blank" />
-  </a>&nbsp;
-  <a aria-label="Follow @expo on LinkedIn" href="https://www.linkedin.com/company/expo-dev" target="_blank">
-    <img alt="Expo on LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-</p>
+The `@expo/cli` package is a CLI binary that should be used via `expo` like `npx expo start`.
 
-## Introduction
-
-Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing React and JavaScript.
-
-This repository includes the Expo SDK, Modules API, Go app, CLI, Router, documentation, and various other supporting tools. [Expo Application Services (EAS)](https://expo.dev/eas) is a platform of hosted services that are deeply integrated with Expo open source tools. EAS helps you build, ship, and iterate on your app as an individual or a team.
-
-Read the [Expo Community Guidelines](https://expo.dev/guidelines) before interacting in the repository. Thank you for helping keep the Expo community open and welcoming!
-
-## Table of contents
-
-- [📚 Documentation](#-documentation)
-- [🗺 Project Layout](#-project-layout)
-- [🏅 Badges](#-badges)
-- [👏 Contributing](#-contributing)
-- [❓ FAQ](#-faq)
-- [💙 The Team](#-the-team)
-- [License](#license)
-
-## 📚 Documentation
-
-<p>Learn about building and deploying universal apps <a aria-label="expo documentation" href="https://docs.expo.dev">in our official docs!</a></p>
-
-- [Getting Started](https://docs.expo.dev/)
-- [API Reference](https://docs.expo.dev/versions/latest/)
-- [Using Custom Native Modules](https://docs.expo.dev/workflow/customizing/)
-
-## 🗺 Project Layout
-
-- [`packages`](/packages) All the source code for Expo modules, if you want to edit a library or just see how it works this is where you'll find it.
-- [`apps`](/apps) This is where you can find Expo projects which are linked to the development modules. You'll do most of your testing in here.
-- [`apps/expo-go`](/apps/expo-go) This is where you can find the source code for Expo Go.
-- [`apps/expo-go/ios/Exponent.xcworkspace`](/ios) is the Xcode workspace. When developing iOS, always open this instead of `Exponent.xcodeproj` because the workspace also loads the CocoaPods dependencies.
-- [`docs`](/docs) The source code for **https://docs.expo.dev**
-- [`templates`](/templates) The template projects you get when you run `npx create-expo-app`
-- [`react-native-lab`](/react-native-lab) This is our fork of `react-native` used to build Expo Go.
-- [`guides`](/guides) In-depth tutorials for advanced topics like contributing to the client.
-- [`tools`](/tools) contains build and configuration tools.
-- [`template-files`](/template-files) contains templates for files that require private keys. They are populated using the keys in `template-files/keys.json`.
-- [`template-files/ios/dependencies.json`](/template-files/ios/dependencies.json) specifies the CocoaPods dependencies of the app.
-
-## 🏅 Badges
-
-Let everyone know your app can be run instantly in the _Expo Go_ app!
-<br/>
-
-[![runs with Expo Go](https://img.shields.io/badge/Runs%20with%20Expo%20Go-000.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/client)
-
-[![runs with Expo Go](https://img.shields.io/badge/Runs%20with%20Expo%20Go-4630EB.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/client)
-
-```md
-[![runs with Expo Go](https://img.shields.io/badge/Runs%20with%20Expo%20Go-000.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/client)
-
-[![runs with Expo Go](https://img.shields.io/badge/Runs%20with%20Expo%20Go-4630EB.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.dev/client)
+```
+npx expo
 ```
 
-## 👏 Contributing
+> ⭐️ Be sure to star the Expo GitHub repo if you enjoy using the project!
 
-If you like Expo and want to help make it better then check out our [contributing guide](/CONTRIBUTING.md)! Check out the [CLI package](https://github.com/expo/expo/tree/main/packages/%40expo/cli) to work on the Expo CLI.
+## Design
 
-## ❓ FAQ
+This CLI has the following purposes:
 
-If you have questions about Expo and want answers, then check out our [Frequently Asked Questions](https://docs.expo.dev/faq/)!
+- Be a minimal interface for starting a local development server that emulates a production EAS Updates server. The development server is the proxy between a native runtime (Expo Go, Dev Client) and a JS Bundler (Metro, Webpack).
+  - To accomplish secure manifest signing (think https/TSL/SSL for web (required for sandboxing AsyncStorage, Permissions, etc.)) we need an authenticated Expo user account. This is the only reason we include the authentication commands `login`, `logout`, `whoami`, `register`. Standard web CLIs don't have authentication commands because they either don't set up https or they use emulation via packages like `devcert`.
+- Orchestrating various native tools like Xcode, `Simulator.app`, Android Studio, ADB, etc. to make native builds as painless as possible. `run:ios`, `run:android` commands.
+- Implementing a versioned `prebuild` command that can reliably work with a project for long periods of time. Prebuild is like a bundler for native code, it generates the `ios`, `android` folders based on the project Expo config (`app.json`).
+  - `npx expo config` is auxiliary to `npx expo prebuild` and used for debugging/introspection.
+- Installing versioned libraries with `npx expo install` this is a minimal utility born out of pure necessity since versioning in React Native is hard to get right.
 
-If you still have questions you can ask them on our [Discord and Forums](https://chat.expo.dev) or on Twitter [@Expo](https://twitter.com/expo).
+# Contributing
 
-## 💙 The Team
+To develop the CLI run (defaults to watch mode):
 
-Curious about who makes Expo? Here are our [team members](https://expo.dev/about)!
+```
+yarn build
+```
 
-## License
+We highly recommend setting up an alias for the Expo CLI so you can try it in projects all around your computer. Open your `.zshrc` or other config file and add:
 
-The Expo source code is made available under the [MIT license](LICENSE). Some of the dependencies are licensed differently, with the BSD license, for example.
+```
+alias nexpo="/path/to/expo/packages/@expo/cli/build/bin/cli"
+```
 
+Then use it with `nexpo` like `nexpo config`. You can also set up a debug version:
 
-<img alt="Star the Expo repo on GitHub to support the project" src="https://user-images.githubusercontent.com/9664363/185428788-d762fd5d-97b3-4f59-8db7-f72405be9677.gif" width="50%">
+```
+alias expo-inspect="node --inspect /path/to/expo/packages/@expo/cli/build/bin/cli"
+```
+
+Then you can run it and visit `chrome://inspect/#devices` in Chrome, and press "Open dedicated DevTools for Node" to get a debugger attached to your process. When debugging the CLI, you'll want to disable workers whenever possible, this will make all code run on the same thread, this is mostly applicable to the `start` command, i.e. `expo-inspect start --max-workers 0`.
+
+## Format
+
+- Be sure to update the [`CHANGELOG.md`](./CHANGELOG.md) with changes for every PR. You only need to add the message, our GitHub bot will automatically suggest adding your name and PR number to the diff.
+- End `async` functions with `Async` like `runAsync`. This is just how we format functions at Expo.
+- When throwing errors, always opt for `CommandError` instead of `Error` -- this helps with debugging and making the experience feel more coherent.
+- Utilize the unified `Log` module instead of `console.log`.
+- When logging with variables, utilize the following format `Something happened (foo: bar, baz: foz)`.
+  - Avoid other formats like `Something happened: bar, foz` or `Something happened: foo=bar, baz=foz`.
+- Main UI components like command names (`expo start`), arguments (`--port`), and `--help` messages should be modified internally, by the Expo team to ensure the developer experience is unified across Expo tooling. External contributions modifying these core aspects may be rejected.
+- Use the `profile` utility method with the `EXPO_PROFILE=1` environment variable to measure execution time.
+- Avoid globals and singletons as these make testing harder and less predictable. The only global we have (at the time of writing this) is the `isOffline` boolean.
+
+## Environment
+
+- Always be cautious of the transitive size of dependencies. [packagephobia](https://packagephobia.now.sh/) is a great resource for determining if a package is lean. Try to minimize adding dependencies to the CLI.
+- We build the CLI using `taskr` + `swc`, this is partially inspired by Next.js' local CLI.
+- The build pipeline will inline the CLI version as an environment variable that is accessible anywhere in the CLI codebase. You can access it via `process.env.__EXPO_VERSION` instead of reading the local `package.json` at runtime.
+- Unlike the legacy global Expo CLI, this CLI is shipped with `expo` meaning the SDK Version is always present.
+  - Reduce SDK specific tasks since only one SDK should be accounted for in a single version of `@expo/cli`.
+  - The `@expo/config` method `getConfig` does not need the `skipSDKVersionRequirement` in any case since `expo` should always be installed. Ex: `getConfig('...', { skipSDKVersionRequirement: true });` shouldn't be used.
+- Also unlike the global Expo CLI we can assume that node modules are always installed since this CLI should be used via a project's local `node_modules` folder.
+  - This means we can't perform operations that upgrade the `expo` package as these may kill the running process. Features that need this pattern (like `expo upgrade`) should live in standalone global tools.
+
+## Testing
+
+There are two testing scripts:
+
+- `yarn test`: Controlled unit and integration tests.
+- `yarn test:e2e`: End to end testing for CLI commands. This requires the files to be built with `yarn build`
+
+---
+
+- You can target a specific set of tests with the `--watch` flag. Example: `yarn test --watch config`.
+- We use backticks for `it` blocks. Example <code>it(`works`)</code>.
+- If a pull request is fully self-contained to the `packages/@expo/cli/` folder (i.e. no `yarn.lock` modifications, etc.) then most native CI tests will be skipped, making CI pass faster in PRs.
+
+### Unit Testing Guidelines
+
+- Use `nock` for network requests.
+- No top level `describe` blocks that wrap all the tests in a file.
+- When testing a function, pass the function to the `describe` block instead of a stringified function name:
+  - `describe(foobar, () => {})` instead of `describe('foobar', () => {})`
+- Use virtual `fs` via `memfs` whenever possible.
+- We have a lot of global module [**mocks**](./e2e/setup.ts) already in place, consider them when writing tests.
+- GitHub Copilot can make writing tests a little less tedious.
+
+### E2E Testing Guidelines
+
+- E2E tests should be resilient and reliable, be sure to give them plenty of time for network requests.
+- When testing locally you should attempt to reuse node modules for faster results. In the `npx expo prebuild` and `npx expo start` commands for instance, we utilize a helper method that will default to reusing a project + node_modules when run locally. This can be [toggled off](https://github.com/expo/expo/blob/11a5a4d27b7e1c8e4d6ddf0401397d789d89f52a/packages/%40expo/cli/e2e/__tests__/utils.ts#L174) to bootstrap a fresh project every time.
+- When bootstrapping test projects, utilize the temporary folder `os.tmpdir()` as this folder is automatically cleaned up when the computer restarts.
+
+## Coming from Expo CLI
+
+> TL;DR: `expo-cli` was 'make it work', whereas `@expo/cli` is 'make it right, make it fast'.
+
+The legacy global `expo-cli` package was deprecated in favor of this versioned `@expo/cli` package for the following reasons:
+
+- `expo-cli` was too big and took way too long to install. This made CI frustrating to set up since you needed to also target global node modules for caching.
+- `expo-cli` worked for almost all versions of the `expo` package, meaning it was getting more complex with every release.
+- `expo-cli` combined service commands (like the legacy `build`, `submit`, `publish`) with project-level commands like `expo start`. We've since divided services into `eas-cli` and project commands into `npx expo` (`@expo/cli`). This structure is more optimal/faster for developers since they can install/update commands when they need them.
+- This CLI utilizes more Node.js standard features like `$EDITOR` instead of the custom `$EXPO_EDITOR` environment variable. Also transitioning away from `$EXPO_DEBUG` and more towards `$DEBUG=expo:*`. These types of changes make Expo CLI play nicer with existing tooling.
+- The DevTools UI has been deprecated to reduce the net install size, minimize complexity, and make room for future debugging UIs (Hermes/v8 Chrome debugger).
+- The `expo start:web` and `expo web` commands have been rolled into `npx expo start` as we now lazily load platforms until the device requests them.
+- Other missing or beta features from `expo-cli` may still be getting migrated over to this new CLI. For a more comprehensive breakdown see the [start command PR](https://github.com/expo/expo/pull/16160).
